@@ -1,0 +1,376 @@
+object DSincroData: TDSincroData
+  OldCreateOrder = False
+  Height = 517
+  Width = 768
+  object dbBAGChanita: TDatabase
+    DatabaseName = 'dbBAGChanita'
+    DriverName = 'INFORMIX'
+    LoginPrompt = False
+    Params.Strings = (
+      'SERVER NAME=iserver6'
+      'DATABASE NAME=chanita'
+      'USER NAME=informix'
+      'OPEN MODE=READ/WRITE'
+      'SCHEMA CACHE SIZE=8'
+      'LANGDRIVER='
+      'SQLQRYMODE='
+      'SQLPASSTHRU MODE=SHARED AUTOCOMMIT'
+      'LOCK MODE=5'
+      'DATE MODE=0'
+      'DATE SEPARATOR=/'
+      'SCHEMA CACHE TIME=-1'
+      'MAX ROWS=-1'
+      'BATCH COUNT=200'
+      'ENABLE SCHEMA CACHE=FALSE'
+      'SCHEMA CACHE DIR='
+      'ENABLE BCD=FALSE'
+      'LIST SYNONYMS=NONE'
+      'DBNLS='
+      'COLLCHAR='
+      'BLOBS TO CACHE=64'
+      'BLOB SIZE=32'
+      'PASSWORD=informix')
+    SessionName = 'Default'
+    Left = 128
+    Top = 243
+  end
+  object qryCentral: TQuery
+    DatabaseName = 'dbCentral'
+    RequestLive = True
+    Left = 64
+    Top = 37
+  end
+  object qryAlmacen: TQuery
+    DatabaseName = 'dbAlmacen'
+    RequestLive = True
+    Left = 64
+    Top = 187
+  end
+  object dbRF: TDatabase
+    DatabaseName = 'dbRF'
+    DriverName = 'INFORMIX'
+    LoginPrompt = False
+    Params.Strings = (
+      'SERVER NAME=iserver1'
+      'DATABASE NAME=comerrf'
+      'USER NAME=informix'
+      'OPEN MODE=READ/WRITE'
+      'SCHEMA CACHE SIZE=8'
+      'LANGDRIVER=DB850ES0'
+      'SQLQRYMODE=SERVER'
+      'SQLPASSTHRU MODE=SHARED AUTOCOMMIT'
+      'LOCK MODE=5'
+      'DATE MODE=1'
+      'DATE SEPARATOR=/'
+      'SCHEMA CACHE TIME=-1'
+      'MAX ROWS=-1'
+      'BATCH COUNT=200'
+      'ENABLE SCHEMA CACHE=FALSE'
+      'SCHEMA CACHE DIR='
+      'ENABLE BCD=FALSE'
+      'LIST SYNONYMS=NONE'
+      'DBNLS='
+      'COLLCHAR='
+      'BLOBS TO CACHE=64'
+      'BLOB SIZE=32'
+      'PASSWORD=informix')
+    SessionName = 'Default'
+    Left = 256
+    Top = 35
+  end
+  object dbBAG: TDatabase
+    DatabaseName = 'dbBAG'
+    DriverName = 'INFORMIX'
+    LoginPrompt = False
+    Params.Strings = (
+      'SERVER NAME=iserver1'
+      'DATABASE NAME=comerbag'
+      'USER NAME=informix'
+      'OPEN MODE=READ/WRITE'
+      'SCHEMA CACHE SIZE=8'
+      'LANGDRIVER=DB850ES0'
+      'SQLQRYMODE=SERVER'
+      'SQLPASSTHRU MODE=SHARED AUTOCOMMIT'
+      'LOCK MODE=5'
+      'DATE MODE=1'
+      'DATE SEPARATOR=/'
+      'SCHEMA CACHE TIME=-1'
+      'MAX ROWS=-1'
+      'BATCH COUNT=200'
+      'ENABLE SCHEMA CACHE=FALSE'
+      'SCHEMA CACHE DIR='
+      'ENABLE BCD=FALSE'
+      'LIST SYNONYMS=NONE'
+      'DBNLS='
+      'COLLCHAR='
+      'BLOBS TO CACHE=64'
+      'BLOB SIZE=32'
+      'PASSWORD=informix')
+    SessionName = 'Default'
+    Left = 192
+    Top = 35
+  end
+  object dbSAT: TDatabase
+    DatabaseName = 'dbSAT'
+    DriverName = 'INFORMIX'
+    LoginPrompt = False
+    Params.Strings = (
+      'SERVER NAME=iserver1'
+      'DATABASE NAME=comersat'
+      'USER NAME=informix'
+      'OPEN MODE=READ/WRITE'
+      'SCHEMA CACHE SIZE=8'
+      'LANGDRIVER=DB850ES0'
+      'SQLQRYMODE=SERVER'
+      'SQLPASSTHRU MODE=SHARED AUTOCOMMIT'
+      'LOCK MODE=5'
+      'DATE MODE=1'
+      'DATE SEPARATOR=/'
+      'SCHEMA CACHE TIME=-1'
+      'MAX ROWS=-1'
+      'BATCH COUNT=200'
+      'ENABLE SCHEMA CACHE=FALSE'
+      'SCHEMA CACHE DIR='
+      'ENABLE BCD=FALSE'
+      'LIST SYNONYMS=NONE'
+      'DBNLS='
+      'COLLCHAR='
+      'BLOBS TO CACHE=64'
+      'BLOB SIZE=32'
+      'PASSWORD=informix')
+    SessionName = 'Default'
+    Left = 128
+    Top = 35
+  end
+  object dbSATLlanos: TDatabase
+    DatabaseName = 'dbSATLlanos'
+    DriverName = 'INFORMIX'
+    LoginPrompt = False
+    Params.Strings = (
+      'SERVER NAME=iserver5'
+      'DATABASE NAME=comersat'
+      'USER NAME=informix'
+      'OPEN MODE=READ/WRITE'
+      'SCHEMA CACHE SIZE=8'
+      'LANGDRIVER=DB850ES0'
+      'SQLQRYMODE='
+      'SQLPASSTHRU MODE=SHARED AUTOCOMMIT'
+      'LOCK MODE=5'
+      'DATE MODE=0'
+      'DATE SEPARATOR=/'
+      'SCHEMA CACHE TIME=-1'
+      'MAX ROWS=-1'
+      'BATCH COUNT=200'
+      'ENABLE SCHEMA CACHE=FALSE'
+      'SCHEMA CACHE DIR='
+      'ENABLE BCD=FALSE'
+      'LIST SYNONYMS=NONE'
+      'DBNLS='
+      'COLLCHAR='
+      'BLOBS TO CACHE=64'
+      'BLOB SIZE=32'
+      'PASSWORD=informix')
+    SessionName = 'Default'
+    Left = 128
+    Top = 187
+  end
+  object dbSATTenerife: TDatabase
+    DatabaseName = 'dbSATTenerife'
+    DriverName = 'INFORMIX'
+    LoginPrompt = False
+    Params.Strings = (
+      'SERVER NAME=iserver2'
+      'DATABASE NAME=sattfe'
+      'USER NAME=informix'
+      'OPEN MODE=READ/WRITE'
+      'SCHEMA CACHE SIZE=8'
+      'LANGDRIVER=DB850ES0'
+      'SQLQRYMODE='
+      'SQLPASSTHRU MODE=SHARED AUTOCOMMIT'
+      'LOCK MODE=5'
+      'DATE MODE=0'
+      'DATE SEPARATOR=/'
+      'SCHEMA CACHE TIME=-1'
+      'MAX ROWS=-1'
+      'BATCH COUNT=200'
+      'ENABLE SCHEMA CACHE=FALSE'
+      'SCHEMA CACHE DIR='
+      'ENABLE BCD=FALSE'
+      'LIST SYNONYMS=NONE'
+      'DBNLS='
+      'COLLCHAR='
+      'BLOBS TO CACHE=64'
+      'BLOB SIZE=32'
+      'PASSWORD=informix')
+    SessionName = 'Default'
+    Left = 208
+    Top = 187
+  end
+  object IdSMTP: TIdSMTP
+    Host = 'smtp.exchange2007.es'
+    Password = 'Pb123456'
+    SASLMechanisms = <>
+    Username = 'USRAD00087416'
+    Left = 64
+    Top = 116
+  end
+  object IdMessage: TIdMessage
+    AttachmentEncoding = 'MIME'
+    BccList = <>
+    CCList = <>
+    Encoding = meMIME
+    FromList = <
+      item
+      end>
+    Recipients = <>
+    ReplyTo = <>
+    ConvertPreamble = True
+    Left = 96
+    Top = 116
+  end
+  object dbBAGP4H: TDatabase
+    DatabaseName = 'dbBAGP4H'
+    DriverName = 'INFORMIX'
+    LoginPrompt = False
+    Params.Strings = (
+      'SERVER NAME=iserver8'
+      'DATABASE NAME=comer'
+      'USER NAME=informix'
+      'OPEN MODE=READ/WRITE'
+      'SCHEMA CACHE SIZE=8'
+      'LANGDRIVER=DB850ES0'
+      'SQLQRYMODE='
+      'SQLPASSTHRU MODE=SHARED AUTOCOMMIT'
+      'LOCK MODE=5'
+      'DATE MODE=0'
+      'DATE SEPARATOR=/'
+      'SCHEMA CACHE TIME=-1'
+      'MAX ROWS=-1'
+      'BATCH COUNT=200'
+      'ENABLE SCHEMA CACHE=FALSE'
+      'SCHEMA CACHE DIR='
+      'ENABLE BCD=FALSE'
+      'LIST SYNONYMS=NONE'
+      'DBNLS='
+      'COLLCHAR='
+      'BLOBS TO CACHE=64'
+      'BLOB SIZE=32'
+      'PASSWORD=informix')
+    SessionName = 'Default'
+    Left = 216
+    Top = 243
+  end
+  object dbBAGTenerife: TDatabase
+    DatabaseName = 'dbBAGTenerife'
+    DriverName = 'INFORMIX'
+    LoginPrompt = False
+    Params.Strings = (
+      'SERVER NAME=iserver2'
+      'DATABASE NAME=bagtfe'
+      'USER NAME=informix'
+      'OPEN MODE=READ/WRITE'
+      'SCHEMA CACHE SIZE=8'
+      'LANGDRIVER=DB850ES0'
+      'SQLQRYMODE='
+      'SQLPASSTHRU MODE=SHARED AUTOCOMMIT'
+      'LOCK MODE=5'
+      'DATE MODE=0'
+      'DATE SEPARATOR=/'
+      'SCHEMA CACHE TIME=-1'
+      'MAX ROWS=-1'
+      'BATCH COUNT=200'
+      'ENABLE SCHEMA CACHE=FALSE'
+      'SCHEMA CACHE DIR='
+      'ENABLE BCD=FALSE'
+      'LIST SYNONYMS=NONE'
+      'DBNLS='
+      'COLLCHAR='
+      'BLOBS TO CACHE=64'
+      'BLOB SIZE=32'
+      'PASSWORD=informix')
+    SessionName = 'Default'
+    Left = 304
+    Top = 243
+  end
+  object dbBAGSevilla: TDatabase
+    DatabaseName = 'dbBAGSevilla'
+    DriverName = 'INFORMIX'
+    LoginPrompt = False
+    Params.Strings = (
+      'SERVER NAME=iserver15'
+      'DATABASE NAME=masetsev'
+      'USER NAME=informix'
+      'OPEN MODE=READ/WRITE'
+      'SCHEMA CACHE SIZE=8'
+      'LANGDRIVER=DB850ES0'
+      'SQLQRYMODE='
+      'SQLPASSTHRU MODE=SHARED AUTOCOMMIT'
+      'LOCK MODE=5'
+      'DATE MODE=0'
+      'DATE SEPARATOR=/'
+      'SCHEMA CACHE TIME=-1'
+      'MAX ROWS=-1'
+      'BATCH COUNT=200'
+      'ENABLE SCHEMA CACHE=FALSE'
+      'SCHEMA CACHE DIR='
+      'ENABLE BCD=FALSE'
+      'LIST SYNONYMS=NONE'
+      'DBNLS='
+      'COLLCHAR='
+      'BLOBS TO CACHE=64'
+      'BLOB SIZE=32'
+      'PASSWORD=informix')
+    SessionName = 'Default'
+    Left = 400
+    Top = 243
+  end
+  object dbX3: TDatabase
+    AliasName = 'X3'
+    DatabaseName = 'dbX3'
+    LoginPrompt = False
+    Params.Strings = (
+      'USER NAME=Lynxview'
+      'PASSWORD=Lynx2014')
+    SessionName = 'Default'
+    Left = 128
+    Top = 355
+  end
+  object qryX3: TQuery
+    DatabaseName = 'dbX3'
+    RequestLive = True
+    Left = 64
+    Top = 355
+  end
+  object dbMaster: TDatabase
+    DatabaseName = 'dbMaster'
+    DriverName = 'INFORMIX'
+    LoginPrompt = False
+    Params.Strings = (
+      'SERVER NAME=iserver1'
+      'DATABASE NAME=comermaster'
+      'USER NAME=informix'
+      'OPEN MODE=READ/WRITE'
+      'SCHEMA CACHE SIZE=8'
+      'LANGDRIVER=DB850ES0'
+      'SQLQRYMODE=SERVER'
+      'SQLPASSTHRU MODE=SHARED AUTOCOMMIT'
+      'LOCK MODE=5'
+      'DATE MODE=1'
+      'DATE SEPARATOR=/'
+      'SCHEMA CACHE TIME=-1'
+      'MAX ROWS=-1'
+      'BATCH COUNT=200'
+      'ENABLE SCHEMA CACHE=FALSE'
+      'SCHEMA CACHE DIR='
+      'ENABLE BCD=FALSE'
+      'LIST SYNONYMS=NONE'
+      'DBNLS='
+      'COLLCHAR='
+      'BLOBS TO CACHE=64'
+      'BLOB SIZE=32'
+      'PASSWORD=informix')
+    SessionName = 'Default'
+    Left = 320
+    Top = 39
+  end
+end

@@ -1,0 +1,1 @@
+ServiceSincroComer.exe /INSTALL
